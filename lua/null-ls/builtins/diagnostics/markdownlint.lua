@@ -13,7 +13,7 @@ return h.make_builtin({
     filetypes = { "markdown" },
     disabled_filetypes = { "markdown.mdx" },
     generator_opts = {
-        command = "markdownlint",
+        command = "mdl",
         args = { "--stdin" },
         to_stdin = true,
         from_stderr = true,
